@@ -1,0 +1,13 @@
+.Home {
+  .homeContainer {
+    overflow-y: auto;
+    min-height: calc(100vh - 85px);
+    height: calc(100vh - 85px);
+  }
+  .homeBottomBar {
+    padding: 0px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}

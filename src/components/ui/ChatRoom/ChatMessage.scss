@@ -1,0 +1,52 @@
+.ChatMessage {
+  .ChatMessageBody {
+    padding: 10px;
+  }
+  .ChatMessageContainer {
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 50px;
+    width: 80%;
+    position: relative;
+  }
+  .left {
+    margin-right: auto;
+    text-align: left;
+    .ChatMessageCreator {
+      position: absolute;
+      top: 0px;
+      left: 10px;
+    }
+    .ChatMessageDate {
+      position: absolute;
+      top: -5px;
+      right: 0px;
+    }
+  }
+  .right {
+    margin-left: auto;
+    text-align: right;
+    // height: 50px;
+    .ChatMessageCreator {
+      position: absolute;
+      top: 0px;
+      right: 10px;
+    }
+    .ChatMessageDate {
+      position: absolute;
+      top: -5px;
+      left: 0px;
+    }
+  }
+  h5 {
+    padding-top: 5px;
+  }
+  .ChatMessageText {
+    font-size: 1rem;
+  }
+  .ChatMessageImage {
+    padding-top: 5px;
+    width: 80%;
+  }
+}

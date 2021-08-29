@@ -1,0 +1,25 @@
+{
+  "short_name": "Accessa",
+  "name": "Acccessa - Controla el acceso a tu empresa",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "accessalogo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "accessalogo215.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#2481a4",
+  "background_color": "#ffffff"
+}

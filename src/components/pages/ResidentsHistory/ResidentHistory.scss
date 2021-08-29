@@ -1,0 +1,11 @@
+.ResidentHistory {
+  .panelTitle {
+    text-align: start;
+    *:nth-child(1n) {
+      // flex-grow: 2;
+    }
+  }
+  .iui-table {
+    display: table-cell;
+  }
+}
